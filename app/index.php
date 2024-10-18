@@ -1,8 +1,9 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
 
 use app\common\Db_PostgreSQL;
 
-require __DIR__ . '/vendor/autoload.php';
+
 
 include_once __DIR__ . '/common/posgress_db.php';
 

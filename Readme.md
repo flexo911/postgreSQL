@@ -5,7 +5,7 @@
 Відкрити головну папку в терміналі і запустити
 
 ```bash
-docker-compose up -d
+docker-compose up -build
 ```
 ## PostgreSQL
 Для взаємодії з PostgreSQL можна використовувати команду для входу в контейнер:
@@ -17,3 +17,8 @@ docker exec -it postgres_db psql -U admin -d mydb
 ```bash
 docker cp /path/to/your/database_dump.sql postgres_db:/tmp/database_dump.sql
 ```
+
+Після запуску відкрити сторінку в браузері, там будуть зроблена лаб робота
+
+http://localhost:8080/
+

@@ -1,6 +1,10 @@
 <?php
 
+
 namespace app\common;
+
+
+use PDO;
 
 include_once __DIR__ . '/SqlToHtmlTable.php';
 

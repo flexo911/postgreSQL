@@ -91,3 +91,4 @@ server.bat
 
 ./.dev/data/
 .prod.env
+/app/vendor/
